@@ -24,7 +24,7 @@ A web application that displays news data from the US using the news API. Will d
 | 4 | Narrow Displayed Data |
 | 5 | Gather Data By Date |
 | 6 | Attach Links to Articles |
-| 7 | Styling|
+| 7 | Styling |
 
 ### *Link to Project*
 ***
