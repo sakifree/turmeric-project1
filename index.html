@@ -4,35 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>News Today</title>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main></main>
-    <script>
-        // save url in a variable
-        const url = "https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=cbbe225fe86c4eba95cd423d1daae222"
-        console.log(url)
+    <h1>News Search App</h1>
+    <div>
+        <form>
+            <label>Search By Title or Keyword: <input type="text"></label>
+            <label>Search By Author: <input type="text"></label>
+            <label>Search By Source: <input type="text"></label>
+            <label>Search By Date Range: <input type="text" placeholder="Date Start"><input type="text" placeholder="Date End"></label>
+            <input type="submit">
+        </form>
+    </div>
+    <main>
 
-        // use ajax, save returned promise in a variable
-        const request = $.ajax(url)
-
-        // use then, log data
-        request.then((data) => {
-            console.log(data)
-
-            // render the then to the screen
-            const $main = $("main") // grab the main element
-            // loop over each game, append div
-            data.articles.forEach((article, index) => {
-                const div = $("<div>")
-                div.html(`<h1>${article.title}</h1>
-                <p>${article.url}</p>`)
-                $main.append(div)
-            })
-        })
-    </script>
+    </main>
 </body>
 </html>
