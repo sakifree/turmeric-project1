@@ -1,6 +1,6 @@
 # *News Search*
 ***
-A web application that displays news data from the US using the news API. Will display first 12 articles in search.
+A web application that displays news data from around the world the using the news API. Will display first 12 articles in search.
 
 ### *Technologies Used*
 ***
