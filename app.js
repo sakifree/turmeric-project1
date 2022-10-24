@@ -7,16 +7,20 @@ const keyWordSearch = (keyword) => {
     console.log(url)
 
     $.ajax(url)
-    .then((articles) => {
-        console.log(articles)
+    .then((data) => {
+        console.log(data)
 
-        const $main = $("main")
-        $main.empty()
-
+        const $main =$("main")
+        data.articles.forEach((element,index) => {
+            const div = $("<div>")
+            div.html(`<h1>${element.title}</h1>`)
+            $main.append(div)
+        })
+         
     })
 }
 
-console.log(keyWordSearch("black panther"))
+console.log(keyWordSearch("steelers"))
 
 const categorySearch = (category) => {
 
