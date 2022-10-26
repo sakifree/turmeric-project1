@@ -6,22 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Today</title>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="app.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
-    <h1>News Search App</h1>
-    <div>
-        <form>
-            <label>Search By Keyword or Phrase: <input type="text"></label>
-            <label>Search By Author: <input type="text"></label>
-            <label>Search By Source: <input type="text"></label>
-            <label>Search By Date Range: <input type="text" placeholder="Date Start"><input type="text" placeholder="Date End"></label>
-            <input type="submit">
-        </form>
-    </div>
-    <main>
-
-    </main>
+    <script>
+        const url = "https://cdn.contentful.com/spaces/a4hnhuvqvorr/environments/master/entries?access_token=n3cBtKhISxqyF1VjoO77y3bIZEDvc7UUKuVgcz6d9dg&content_type=triviaQ"
+        $.ajax(url)
+        .then((data) => {
+            console.log(data)
+        })
+    </script>
 </body>
 </html>
