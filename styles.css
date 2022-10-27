@@ -1,5 +1,6 @@
 html {
     background-color: #6b9080;
+    font-family: 'Unica One', cursive;
 }
 h1 {
     text-align: center;
@@ -33,7 +34,7 @@ h1 {
 #answer {
     width: 50%;
     margin: 10px auto;
-    color: white;
+    color: #fcecc9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,15 +68,16 @@ h1 {
 
 #scores {
     display: flex;
-    width: 70%;
-    background-color: darkslategray;
+    width: 15%;
+    background-color: #114b5f;
     justify-content: center;
-    margin: 10px auto;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 #player1, #player2 {
-    width: 40%;
-    background-color: darkgoldenrod;
+    width: 100%;
+    background-color: #ca742b;
     margin: 5px;
     text-align: center;
 }
