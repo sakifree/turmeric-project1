@@ -32,7 +32,7 @@ const chooseAnswer = (event, question) => {
         setBoard(questions)
     } else {
         console.log("incorrect")
-        //setBoard(questions)
+        setBoard(questions)
         state.which = !state.which
     }
 } 

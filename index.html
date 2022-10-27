@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sports Trvia Game</title>
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <h1>Sports Trivia Game</h1>
-    <h4>Rules: Random question about various sports. Player 1 goes first! 1 point per question. If a player gets a question wrong, the other player can steal the point! </h4>
-    <div id="question">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At nisi, maxime cupiditate quasi nesciunt reiciendis molestias placeat cum praesentium perferendis numquam sit suscipit facilis! Tenetur totam voluptate neque et excepturi.</div>
-    <div id="answer">
-        <ul>
-            <li id="a">Answer A</li>
-            <li id="b">Answer B</li>
-            <li id="c">Answer C</li>
-            <li id="d">Answer D</li>
-        </ul>
-    </div>
-    <div id="scores">
-        <div id="player1">
-            <h3>Player 1</h3>
-            <h4>0</h4>
+    <div class="container">
+        <h1>Sports Trivia Game</h1>
+        <div id="question">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At nisi, maxime cupiditate quasi nesciunt reiciendis molestias placeat cum praesentium perferendis numquam sit suscipit facilis! Tenetur totam voluptate neque et excepturi.</div>
+        <div id="answer">
+            <ul>
+                <li id="a">Answer A</li>
+                <li id="b">Answer B</li>
+                <li id="c">Answer C</li>
+                <li id="d">Answer D</li>
+            </ul>
         </div>
-        <div id="player2">
-            <h3>Player 2</h3>
-            <h4>0</h4>
+        <div id="scores">
+            <div id="player1">
+                <h3>Player 1</h3>
+                <h4>0</h4>
+            </div>
+            <div id="player2">
+                <h3>Player 2</h3>
+                <h4>0</h4>
+            </div>
         </div>
+        <div id="turn"></div>
     </div>
-    <div id="turn"></div>
 </body>
 </html>
