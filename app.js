@@ -35,7 +35,7 @@ const chooseAnswer = (event, question) => {
         setBoard(questions)
         state.which = !state.which
     }
-} 
+}
 
 const setBoard = (q) => {
     const randomIndex = Math.floor(Math.random() * q.length)
@@ -53,7 +53,10 @@ const setBoard = (q) => {
     $("li").off()
     $("li").on("click", (event) => {
         chooseAnswer(event, randomQuestion)
-    })
+    })      
+
+    console.log(state.player1)
+    console.log(state.player2)
 }
 
 
@@ -69,3 +72,7 @@ const url = "https://cdn.contentful.com/spaces/a4hnhuvqvorr/environments/master/
             setBoard(questions)
 
         })
+
+$("#button").on("click",(e) => {
+    document.location.reload()
+})        
