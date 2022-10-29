@@ -1,6 +1,6 @@
-# *News Search*
+# *Sports Trivia Game*
 ***
-A web application that displays news data from around the world the using the news API. Will display first 12 articles in search.
+A web application that randomly displays 20 questions about various sports that tracks each player's score.
 
 ### *Technologies Used*
 ***
@@ -8,11 +8,13 @@ A web application that displays news data from around the world the using the ne
 - CSS3
 - JavaScript
 - jQuery
-- News API
+- ContentAPI
+- [Alex Merced's Contentful Playlist](https://www.youtube.com/playlist?list=PLY6oTPmKnKbYC-NRcAFVN4_R5D3HRmKGu)
+- [Trivia Questions](https://thesmartbackyard.com/sports-trivia-questions/)
 
-### *Wireframes*
+### *Wireframe*
 ***
-![News Search Wireframe](https://i.imgur.com/U2gg7dV.png)
+![Trivia Game Desktop Wireframe](https://i.imgur.com/5unam1g.png)
 
 ### *Daily Plan*
 ***
@@ -28,4 +30,4 @@ A web application that displays news data from around the world the using the ne
 
 ### *Link to Project*
 ***
-[My Project Live Page](https://turmeric-project1-a45vpniu0-sakifree.vercel.app/)
+[My Project Live Page](https://turmeric-project1-one.vercel.app/)
